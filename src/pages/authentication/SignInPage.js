@@ -94,7 +94,7 @@ function SignInPage() {
                                     <div className="center-vertical">
 
                                         <div className="margin-bottom-medium">
-                                            <p className="blue-text uppercase font-size-medium text-align-center margin-bottom-medium">
+                                            <p className="font-style-italic font-weight-bold blue-text uppercase font-size-medium text-align-center margin-bottom-medium">
                                                 Welcome Back
                                             </p>
                                         </div>

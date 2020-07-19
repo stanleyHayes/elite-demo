@@ -12,7 +12,7 @@ function Footer({currentUser}) {
                     <Grid container={true} spacing={4} justify="center">
                         <Grid item={true} xs={12} md={4}>
                             <div>
-                                <p className="uppercase grey-text-light center-align">Main Links</p>
+                                <p className="uppercase grey-text-light">Main Links</p>
 
                                 <p>
                                     <Link to="/"
@@ -75,7 +75,7 @@ function Footer({currentUser}) {
                             </div>
                         </Grid>
                         <Grid item={true} xs={12} md={4}>
-                            <p className="uppercase grey-text-light center-align">Follow us on social media</p>
+                            <p className="uppercase grey-text-light">Follow us on social media</p>
 
                             <div className="social-links-container">
                                 <div className="margin-vertical-medium social-link-container">

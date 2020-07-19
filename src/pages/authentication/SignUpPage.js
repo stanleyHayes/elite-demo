@@ -121,7 +121,7 @@ function SignUpPage() {
 
                                     <div className="center-vertical">
 
-                                        <p className="text-align-center blue-text uppercase font-size-medium margin-bottom-medium">
+                                        <p className="font-style-italic font-weight-bold text-align-center blue-text uppercase font-size-medium margin-bottom-medium">
                                             Hello there, We are pleased you chose to join ELiTE. Welcome !!!
                                         </p>
                                         <div className="margin-bottom-medium">

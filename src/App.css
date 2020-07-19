@@ -74,14 +74,14 @@ html, body {
 }
 
 .title {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
 }
 
 
 @media screen and (max-width: 700px) {
   .title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
   }
 }
@@ -324,3 +324,136 @@ html, body {
   height: 100%;
 }
 
+.font-style-italic{
+  font-style: italic;
+}
+
+.slider-container{
+  height: 80vh;
+  position: relative;
+  max-width: 100%;
+}
+
+.responsive-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .responsive-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.responsive-title{
+  font-size: 58px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-title {
+    font-size: 32px;
+    font-weight: 900;
+  }
+}
+
+.responsive-text{
+  font-size: 52px;
+}
+
+@media only screen and (max-width: 900px) {
+  .responsive-text {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-text {
+    font-size: 16px;
+  }
+}
+
+.center-align{
+  text-align: center;
+}
+
+.grey-text{
+  color: #555555;
+}
+
+.sub-header{
+  font-weight: 600;
+  font-size: 24px;
+  color: #333333;
+}
+
+@media screen and (max-width: 600px){
+  .sub-header{
+    font-size: 14px;
+  }
+}
+
+
+.padding-vertical-medium {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.margin-vertical-small{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.margin-vertical-medium{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.margin-vertical-large{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.padding-vertical-small{
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+
+.margin-bottom-huge{
+  margin-bottom: 64px;
+}
+
+.margin-bottom-small{
+  margin-bottom: 8px;
+}
+
+.margin-bottom-medium{
+  margin-bottom: 16px;
+}
+
+.margin-top-medium{
+  margin-top: 16px;
+}
+
+.margin-top-large{
+  margin-top: 32px;
+}
+
+.padding-vertical-huge{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.padding-vertical-big {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.padding-horizontal-medium{
+  padding-left: 12px;
+  padding-right: 12px;
+}
