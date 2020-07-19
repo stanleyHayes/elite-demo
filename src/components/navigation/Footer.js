@@ -49,6 +49,12 @@ function Footer({currentUser}) {
                                     currentUser ? (
                                         <div>
                                             <p>
+                                                <Link to="/account"
+                                                      className={`dark-grey-text nav-link margin-vertical-small`}>
+                                                    Account
+                                                </Link>
+                                            </p>
+                                            <p>
                                                 <Link to="/login"
                                                       className={`dark-grey-text nav-link margin-vertical-small`}>
                                                     Logout

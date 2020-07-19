@@ -69,7 +69,7 @@ function DashboardPage() {
                                             variant="text"
                                             fullWidth={true}
                                             endIcon={<ArrowForward className={classes.icon} />}>
-                                            <Link to="" className="nav-link">
+                                            <Link to="/instructors" className="nav-link">
                                                 View Instructors
                                             </Link>
                                         </Button>
@@ -111,7 +111,7 @@ function DashboardPage() {
                                             variant="text"
                                             fullWidth={true}
                                             endIcon={<ArrowForward className={classes.icon} />}>
-                                            <Link to="" className="nav-link">
+                                            <Link to="/students" className="nav-link">
                                                 View Students
                                             </Link>
                                         </Button>
@@ -153,7 +153,7 @@ function DashboardPage() {
                                             variant="text"
                                             fullWidth={true}
                                             endIcon={<ArrowForward className={classes.icon} />}>
-                                            <Link to="" className="nav-link">
+                                            <Link to="/courses" className="nav-link">
                                                 View Courses
                                             </Link>
                                         </Button>
@@ -195,7 +195,7 @@ function DashboardPage() {
                                             variant="text"
                                             fullWidth={true}
                                             endIcon={<ArrowForward className={classes.icon} />}>
-                                            <Link to="" className="nav-link">
+                                            <Link to="/schedules" className="nav-link">
                                                 View Schedule
                                             </Link>
                                         </Button>

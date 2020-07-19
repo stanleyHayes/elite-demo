@@ -1,7 +1,7 @@
 import React, {Fragment} from "react";
 import {Grid, Toolbar, Avatar} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import {connect} from "react-redux";
 import {ExitToApp} from "@material-ui/icons";
 
@@ -25,7 +25,13 @@ function DesktopHeader({currentUser, loading}) {
                 color: "#777777"
             }
         }
-    })
+    });
+
+    const history = useHistory();
+
+    const handleLogout = event => {
+        history.push('/login');
+    }
 
     const classes = useStyles();
 
@@ -104,7 +110,7 @@ function DesktopHeader({currentUser, loading}) {
                                     {currentUser && currentUser.name[0][0]}
                                 </Avatar>
                             )}
-                            <ExitToApp className={classes.icon}/>
+                            <ExitToApp onClick={handleLogout} className={classes.icon}/>
                         </Grid>
                     ) : null
                 }
