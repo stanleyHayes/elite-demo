@@ -149,6 +149,9 @@ function Footer({currentUser}) {
                     </p>
                     <p className="text-align-center grey-light-text developer font-size-small">All Rights
                         Reserved &copy; 2020 Developed and Managed by ELiTE</p>
+                    <p className="text-align-center grey-light-text developer font-size-small">
+                        Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+                    </p>
                 </Container>
             </div>
         </div>

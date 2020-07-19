@@ -37,8 +37,8 @@ function AboutPage() {
                                             <div>
                                                 <div className="center-align">
                                                     <img
-                                                        height="120"
-                                                        width="120"
+                                                        height="70"
+                                                        width="70"
                                                         className=""
                                                         src={`${process.env.PUBLIC_URL}/images/mission.svg`}
                                                         alt="Mission logo"/>
@@ -66,8 +66,8 @@ function AboutPage() {
                                             <div>
                                                 <div className="center-align">
                                                     <img
-                                                        height="120"
-                                                        width="120"
+                                                        height="70"
+                                                        width="70"
                                                         className=""
                                                         src={`${process.env.PUBLIC_URL}/images/vision.svg`}
                                                         alt="Mission logo"/>
@@ -188,6 +188,7 @@ function AboutPage() {
                         </Grid>
                     </Container>
                 </section>
+
                 <section className="section padding-vertical-huge">
                     <Container>
                         <Grid container={true} spacing={3}>
@@ -314,6 +315,7 @@ function AboutPage() {
                         </Grid>
                     </Container>
                 </section>
+
                 <section className="section light-background padding-vertical-big">
                     <Container>
                         <Grid container={true} spacing={3}>

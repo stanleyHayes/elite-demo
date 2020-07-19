@@ -28,7 +28,7 @@ const user = {
 }
 
 const  INITIAL_STATE = {
-    currentUser: null,
+    currentUser: user,
     error: null,
     loading: false,
     token: null

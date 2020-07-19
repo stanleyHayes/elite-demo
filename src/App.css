@@ -391,7 +391,7 @@ html, body {
 }
 
 @media screen and (max-width: 600px){
-  .sub-header{
+  .sub-header, .profile{
     font-size: 14px;
   }
 }
@@ -456,4 +456,10 @@ html, body {
 .padding-horizontal-medium{
   padding-left: 12px;
   padding-right: 12px;
+}
+
+.profile{
+  line-height: 2;
+  font-size: 20px;
+  word-spacing: 4px;
 }
