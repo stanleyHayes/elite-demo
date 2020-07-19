@@ -74,14 +74,14 @@ html, body {
 }
 
 .title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 400;
 }
 
 
 @media screen and (max-width: 700px) {
   .title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
   }
 }
@@ -288,3 +288,39 @@ html, body {
   display: inline-block;
   margin-left: 8px;
 }
+
+.caption{
+  font-size: 12px;
+  text-align: left;
+  color: darkblue;
+}
+
+.margin-bottom-tiny{
+  margin-bottom: 4px;
+}
+
+.margin-bottom-small{
+  margin-bottom: 8px;
+}
+
+.margin-bottom-medium{
+  margin-bottom: 16px;
+}
+
+.padding-vertical-huge{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.center-horizontal{
+  display: flex;
+  justify-content: center;
+}
+
+.center-vertical{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
