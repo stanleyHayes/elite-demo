@@ -27,7 +27,6 @@ function DashboardPage() {
 
     const classes = useStyles();
 
-
     return (
         <Layout>
             <section className="section padding-vertical-huge">
