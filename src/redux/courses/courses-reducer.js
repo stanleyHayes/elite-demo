@@ -1,6 +1,8 @@
+import {COURSES} from "./courses.data";
+
 const INITIAL_STATE = {
     error: null,
-    courses: [],
+    courses: COURSES,
     selectedCourse: null
 };
 

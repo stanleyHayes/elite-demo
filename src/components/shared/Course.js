@@ -1,5 +1,5 @@
 import React from "react";
-import {CardActions, Button, Divider, CardContent, Card, Avatar} from "@material-ui/core";
+import {CardActions, Button, Divider, CardContent, Card, Avatar, Grid} from "@material-ui/core";
 import {ArrowForward} from "@material-ui/icons";
 import {Link} from "react-router-dom";
 import {makeStyles} from "@material-ui/styles";
@@ -30,12 +30,14 @@ function Course({course}) {
     return (
         <Card elevation={1} raised={true} variant="elevation">
             <CardContent>
-                <div className="center-horizontal">
-                    <div>
-                        <Avatar className={classes.avatar} src={avatar} />
-                    </div>
-                    <p className="text font-size-medium">{name}</p>
-                    <p className="font-size-small grey-text-light">{description}</p>
+                <div>
+                    <Grid container={true} justify="center">
+                        <Grid item={true}>
+                            <Avatar className={classes.avatar} src={avatar}/>
+                        </Grid>
+                    </Grid>
+                    <p className="text font-size-medium text-align-center">{name}</p>
+                    <p className="font-size-small text text-align-center">{description}</p>
                 </div>
             </CardContent>
             <Divider variant="fullWidth" />
