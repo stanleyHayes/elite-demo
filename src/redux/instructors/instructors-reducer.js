@@ -1,6 +1,8 @@
+import {INSTRUCTORS} from "./instructors.data";
+
 const INITIAL_STATE = {
     error: null,
-    instructors: [],
+    instructors: INSTRUCTORS,
     selectedInstructor: null
 };
 

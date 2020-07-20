@@ -24,15 +24,17 @@ function Instructor({instructor}) {
         }
     })
 
+    console.log(instructor);
+
     const classes = useStyles();
 
     const {_id, avatar, name, school, profile, major} = instructor;
     return (
         <Card elevation={1} raised={true} variant="elevation">
             <CardContent>
-                <div className="center-horizontal">
+                <div>
                     <div>
-                        <Avatar className={classes.avatar} src={avatar} />
+                        <Avatar className={classes.avatar} src={avatar}/>
                     </div>
                     <p className="text font-size-medium">{name}</p>
                     <p className="font-size-small">{major}</p>
@@ -40,14 +42,14 @@ function Instructor({instructor}) {
                     <p className="font-size-small">{profile}</p>
                 </div>
             </CardContent>
-            <Divider variant="fullWidth" />
+            <Divider variant="fullWidth"/>
             <CardActions>
                 <Button
                     className={classes.button}
                     size="large"
                     variant="text"
                     fullWidth={true}
-                    endIcon={<ArrowForward className={classes.icon} />}>
+                    endIcon={<ArrowForward className={classes.icon}/>}>
                     <Link to={`/instructors/${_id}`} className="nav-link">
                         View Instructor Details
                     </Link>
